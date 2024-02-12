@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.votinglogo {
+    display: flex;
+}
+
+image {
+  background-color: white;
+  border: white;
+  color: white;
+  box-sizing: content-box;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+h1{
+    text-align: center;
+    color: #ffff;
+    padding: 30px;
+    background-color: #0060ba;
+    font-family: arial, sans-serif;
+}
+
+footer {
+  min-height: 100px;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.social-icon {
+  padding: 20px 15px;
+  background-color: white;
+  text-decoration: none;
+  color: gray;
+  border-radius: 10px;
+}
+
+.social-icon:hover {
+  background-color: gray;
+  color: white;
+}
+
+button{
+    background-color:#008CBA;
+    font-size: 16;
+    width:100px;
+    height:100px;
+    border:solid;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    padding:20px;
+}
+
+/*  ### navbar styling ### */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+}
+
+.navbar li {
+    /* text-align: center; */
+    /* display: flex; */
+    /* margin: 10px; */
+    padding: 8px;
+    border-right: 1px solid gray;
+}
+
+.navbar li:last-child {
+  border: 0;
+}
+
+.navbar li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a:hover {
+  background-color: gray;
+  color: white;
+}
+
+/*  ### navbar styling ### */
+
+
+p {
+  display:flex;
+  padding: 25px;
+  margin: 10px;
+  border-color:lightskyblue;
+  border-style: solid;
+  border-radius: 30px;
+  background-color:purple;
+  color:white; 
+ }
+
+p:hover {
+  text-shadow: 2px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+} 
+
+
+.social-icon:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+
+
+
+button {
+    background-color:#008CBA;
+    font-size: 16;
+    width:150px;
+    height:50px;
+    border:solid;
+    border-radius: 30px;
+    color: white;
+    text-align:center;
+    padding:20px;
+}
+
+button:hover{
+    background-color: #06c1ff;
+}
+
+button:active {
+    padding: 10px 15px 8px;
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+
+
+
+
